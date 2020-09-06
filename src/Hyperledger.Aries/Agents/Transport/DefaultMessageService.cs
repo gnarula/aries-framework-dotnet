@@ -12,7 +12,7 @@ namespace Hyperledger.Aries.Agents
     public class DefaultMessageService : IMessageService
     {
         /// <summary>The agent wire message MIME type</summary>
-        public const string AgentWireMessageMimeType = "application/ssi-agent-wire";
+        public const string AgentWireMessageMimeType = "application/didcomm-envelope-enc";
 
         /// <summary>The logger</summary>
         // ReSharper disable InconsistentNaming
